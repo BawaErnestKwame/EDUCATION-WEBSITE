@@ -72,6 +72,11 @@ nav .nav-list li{
    
 }
 
+.active{
+    background-color: var(--main-background-color);
+    color: var(--text-color);
+}
+
 .nav-list li a:hover::before{
     content: "";
     width: 100%;
