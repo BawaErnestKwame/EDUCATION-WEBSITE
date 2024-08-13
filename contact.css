@@ -81,6 +81,39 @@ nav .nav-list li{
 
 }
 
+.contact-infor{
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    height: 40px;
+    border: 2px solid;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.contact-infor p{
+    position: absolute;
+    top: 50px;
+    right: 1px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #e91e63;
+    padding: 10px;
+    letter-spacing: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.contact-infor:hover p{
+    opacity: 1;
+}
+
 span{
     color: var(--text-color);
 }
