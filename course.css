@@ -47,6 +47,7 @@ nav .nav-list{
     display: flex;
     gap: 5rem;
     /* flex-wrap: wrap; */
+    align-items: center;
 }
 
 nav .nav-list li{
@@ -74,7 +75,8 @@ nav .nav-list li{
     height: 4px;
     position: absolute;
     background-color: var(--text-color);
-    bottom: -15px;
+    bottom: -18px;
+    border-radius: 3px;
     right: 0px;
     transition: 1s;
 
@@ -115,4 +117,8 @@ nav .nav-list li{
 
 span{
     color: var(--text-color);
+}
+
+h1{
+    color: white;
 }
