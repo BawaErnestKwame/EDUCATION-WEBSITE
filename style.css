@@ -40,7 +40,19 @@ nav{
     background-color: var(--navbar);
     padding: 10px var(--man-body-padding);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
 }
+
+.window-scrol{
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .3);
+}
+
+
 
 nav .logo h1{
     font-size: var(--title-font-size);
@@ -75,6 +87,7 @@ nav .nav-list li{
 .active{
     background-color: var(--main-background-color);
     color: var(--text-color);
+    
 }
 
 .nav-list li a:hover::before{
@@ -201,6 +214,7 @@ span{
 }
 
 .header-container{
+    margin-top: 60px;
     padding: 50px var(--man-body-padding);
     width: 100%;
 
@@ -225,10 +239,10 @@ span{
     position: absolute;
 }
 
-@keyframes learn {
+/* @keyframes learn {
     0%{
         opacity: 0;
-        top: -100px;
+        top: -150px;
     }
 
     100%{
@@ -237,7 +251,7 @@ span{
          top: 30px; 
     }
     
-}
+} */
 
  .title-image .title .btn{
     margin-top: 30px;
@@ -345,7 +359,7 @@ p{
 
 }
 
-@keyframes headerimg {
+/* @keyframes headerimg {
     0%{
         opacity: 0;
         
@@ -357,7 +371,7 @@ p{
 
     }
     
-}
+} */
 
 
 @media screen and (max-width:600px) {
