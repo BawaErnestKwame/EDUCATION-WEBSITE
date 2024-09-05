@@ -124,8 +124,8 @@ h1{
 }
 
 .our-coursepage{
-    background-image: linear-gradient( rgba(0, 0, 255, 0.637),
-     rgba(56, 2, 9, 0.685)),url(./images/09becd9a58098f37ce337b0da0c25c3d.jpg);
+    background-image: linear-gradient(to right, rgba(3, 3, 110, 0.637),
+     rgb(3, 64, 105)),url(./images/download.jpeg);
    
      background-repeat: no-repeat;
      display: flex;
@@ -151,7 +151,12 @@ h1{
     border-radius: 40px;
     display: flex;
     gap: .5rem;
+    transition: 0.5s;
    
+}
+
+.our-coursepage .home_course:hover{
+    border-bottom: 3px solid whitesmoke;
 }
 
 .our-coursepage .home_course button{
