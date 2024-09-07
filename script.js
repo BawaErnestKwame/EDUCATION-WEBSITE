@@ -1,4 +1,18 @@
 
+
+// frequently asked quetions
+
+
+function show(){
+
+let opEn = document.querySelector(".open");
+let shoanSwer = document.querySelector(".shoanSwer");
+
+opEn.style.display= 'block';
+
+}
+
+
 // active links
 const pathName = window.location.pathname;
 const pageName = pathName.split("/").pop();
