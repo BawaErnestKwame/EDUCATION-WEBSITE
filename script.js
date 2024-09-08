@@ -9,6 +9,9 @@ let opEn = document.querySelector(".open");
 let shoanSwer = document.querySelector(".shoanSwer");
 
 opEn.style.display= 'block';
+shoanSwer.style.display = 'none';
+
+
 
 }
 
@@ -50,6 +53,23 @@ window.addEventListener("scroll", () => {
 
     const links = nav.querySelectorAll("a");
     links.forEach(link => {
-        link.style.color = window.scrollY > 0 ? "#000" : ""; // Set color to black if scrolled, otherwise reset
+        link.style.color = window.scrollY > 0 ? " #e91e63" : ""; // Set color to black if scrolled, otherwise reset
     });
 });
+
+
+window.addEventListener('scroll', function() {
+    const span = document.querySelector('.logo span');
+    if (window.scrollY > 50) { // Change this value to adjust the scroll threshold
+        span.classList.add('highlight');
+    } else {
+        span.classList.remove('highlight');
+    }
+    });
+
+
+
+// signup localStorage
+
+
+

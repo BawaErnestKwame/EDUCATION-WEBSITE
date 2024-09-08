@@ -54,6 +54,11 @@ nav{
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .3);
 }
 
+.highlight{
+    color: #e91e63;
+
+}
+
 
 
 nav .logo h1{
@@ -79,6 +84,17 @@ nav .nav-list li{
     transition: var(--transitions);
     position: relative;
     font-weight: bold;
+}
+
+.login_signup button{
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #17025a;
+    color: #eef3ed;
 }
 
 .nav-list li a:hover{
@@ -302,8 +318,29 @@ span{
     height: 30rem;
     border-radius: 10px;
     box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
-    animation: headerimg 5s forwards ease-in-out;
+    animation: fadeIn 1s ease-in-out forwards, shake 2s infinite;
+    animation-delay: 2s;
+    animation-play-state: running;
    
+}
+
+
+@keyframes shake {
+    0% {
+        transform: translateX(0) scale(1.1);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(10px) rotate(10deg);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .about-website{
@@ -314,9 +351,51 @@ span{
     gap: 4rem;
     align-items: center;
     justify-content: center;
+    /* animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.3s; */
 
 
 }
+
+
+.about-website div {
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.3s;
+}
+
+.about-website div:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.about-website div:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.about-website div:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+.about-website div:nth-child(4) {
+    animation-delay: 1.2s;
+}
+
+.about-website div:nth-child(5) {
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 
 .course-number,
 .instructors,
@@ -551,6 +630,8 @@ p{
    margin-top: 30px;
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
    border-bottom: 3px solid red;
+   overflow: hidden;
+   
 }
 
 
@@ -566,6 +647,12 @@ p{
 .courses-card .card1 img{
     width: 100%;
     height: 120px;
+    transition: 0.5s;
+}
+
+.courses-card .card1 img:hover{
+    transform: scale(1.2);
+   
 }
 
 .card1 .rating-name{
