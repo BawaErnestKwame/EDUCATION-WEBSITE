@@ -12,6 +12,7 @@
     --transitions:0.5s;
     --letter-spacing: 1.1px;
     --font-family:Arial, Helvetica, sans-serif;
+    --max-width-768px: 2rem;
 
 } 
 
@@ -424,10 +425,12 @@ p{
     letter-spacing: .5px;
     color: var(--text-color);
 
-
 }
 
 
+
+
+/* who we are container */
 
 .who-we-are-continer{
     display: flex;
@@ -497,6 +500,9 @@ p{
     border: 2px solid white;
     line-height: 2;
 }
+
+/* .start_yourlearning_journey */
+
 
 .start_yourlearning_journey{
     width: 100%;
@@ -770,15 +776,9 @@ p{
     line-height: 1.1;
 }
 
-/* .open{
-    display: flex;
 
-} */
 
-/* instructors  */
-/* instructors  */
-/* instructors  */
-/* instructors  */
+/* .popular-instructors section */
 
 .popular-instructors{
     padding: 4rem 6rem;
@@ -1215,7 +1215,9 @@ color: #e91e62;
 
 
 
-@media screen and (max-width:600px) {
+
+
+@media screen and (max-width:768px) {
 
     nav{
         padding: 10px 2rem;
@@ -1256,6 +1258,154 @@ color: #e91e62;
         width: 100%;
         padding: 1rem 1.5rem;
      }
+
+
+     .about-website{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 1.5rem;
+        width: 100%;
+        gap: 1rem;
+    }
+
+   /* .who-we-are-continer section */
+
+    .who-we-are-continer img{
+        width: 80%;
+        margin-bottom: 20px;
+        border-right: 5px solid #e91e63;
+    }
+    
+    .who-we-are-continer p{
+        letter-spacing: .5px;
+        line-height: 1.3;
+    }
+    
+    
+    .who-we-are-continer .text .online-course-infor{
+       
+        margin-top: 20px;
+       
+    }
+    
+    .who-we-are-continer .text .upgrade-personal-skill-infor{
+        
+        margin-top: 20px;
+      
+    
+    }
+    
+    .who-we-are-continer .text .execises-nfor{
+        
+        margin-top: 20px;
+        
+    }
+    
+    .text h1{
+        background-color: #e91e62;
+        width: 120px;
+        height: 60px;
+       
+    }
+
+
+    /* .start_yourlearning_journey */
+
+
+.start_yourlearning_journey{
+    width: 100%;
+    height: auto;
+    padding: var(--max-width-768px);
+}
+
+.start_yourlearning_journey h2{
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+   
+}
+
+.start_yourlearning_journey p{
+    color: var(--text-color);
+    letter-spacing: .5px;
+    line-height: 1.3;
+    
+
+}
+
+.start_yourlearning_journey .discover-more-btn a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+
+
+/* .our-popular-course sectionds */
+
+
+.our-popular-course{
+    padding: var(--max-width-768px);
+    height: auto;
+  
+}
+
+
+
+.our-popular-course p{
+    letter-spacing: .5px;
+   
+}
+
+.our-popular-course h1{
+    font-size: 1.9rem;
+}
+
+.our-popular-course h1::before{
+    height: 70px;
+    width: 70px;
+}
+
+.courses-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: black;
+    gap: 20px;
+}
+
+.more{
+    top: 10px;
+}
+
+.courses-card .card1{
+   width: 230px;
+   height: auto;
+   box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
+}
+
+.get-started-btn a{
+    text-decoration: none;
+    color: #eef3ed;
+
+}
+
+
+/* .popular-instructors sections */
+
+
+.sugested-questions{
+ 
+    padding: var(--max-width-768px);
+   
+}
+
+
+.sugested-questions .question_answers{
+    width: 100%;
+   
+}
+
+
 
      
 
