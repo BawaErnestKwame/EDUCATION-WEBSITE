@@ -46,7 +46,7 @@ nav{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .window-scrol{
@@ -203,7 +203,6 @@ nav .nav-list li{
     flex-direction: column;
     position: relative;
     cursor: pointer;
-
 }
 
 .contact-infor p{
@@ -235,7 +234,6 @@ span{
     margin-top: 60px;
     padding: 50px var(--man-body-padding);
     width: 100%;
-
 }
 
 .header-container .title-image{
@@ -282,6 +280,7 @@ span{
     color: var(--text-color);
     font-size: 1rem;
     font-weight: 500;
+    cursor:pointer;
     position: relative;
     transition: var(--transitions);
 }
@@ -298,20 +297,12 @@ span{
 
 .title-image .title .btn:hover{
     background-color: rgb(255, 102, 0);
+
 }
-
-
-
-
-
-
-
 
 .header-container .title-image .title span{
     color: #f50957;
 }
-
-
 
 .header-container .title-image .image img{
     width: 30rem;
@@ -321,7 +312,6 @@ span{
     animation: fadeIn 1s ease-in-out forwards, shake 2s infinite;
     animation-delay: 2s;
     animation-play-state: running;
-   
 }
 
 
@@ -353,10 +343,7 @@ span{
     justify-content: center;
     /* animation: fadeIn 1s ease-in-out forwards;
     animation-delay: 0.3s; */
-
-
 }
-
 
 .about-website div {
     text-align: center;
@@ -567,7 +554,7 @@ p{
 }
 
 
-/* our-popular-courde  */
+/* our-popular-course  */
 
 .our-popular-course{
     padding: 4rem 6rem;
@@ -733,7 +720,7 @@ p{
     right: 200px;
     font-size: 4rem;
     color: #e91e62;
-    opacity: .2;
+    opacity: .4;
     
 }
 
@@ -1202,6 +1189,26 @@ color: #e91e62;
     background-color: #fc5304;
     padding: 5px;
     border-radius: 8px;
+   
+ }
+
+ .flex5{
+    background-color: #e91e63;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 190px;
+    line-height: 2;
+    font-size: 20px;
+    color: #eef3ed;
+    text-align: center;
+   
+ }
+
+ .flex5 a{
+    text-decoration: none;
+    color: #eef3ed;
    
  }
 
