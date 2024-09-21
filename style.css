@@ -1310,7 +1310,7 @@ color: #e91e62;
     
     .header-container .title-image{
         flex-direction: column;
-        background-color: rgb(99, 72, 72);
+      
 
      }
 
@@ -1477,15 +1477,20 @@ color: #e91e62;
 
 
 .sugested-questions{
- 
-    padding: var(--max-width-768px);
-   
+    padding: 1rem;
+
 }
 
+.sugested-questions h1{
+    font-size: 1.5rem;
+}
 
 .sugested-questions .question_answers{
     width: 100%;
-   
+}
+
+.popular-instructors{
+    padding: 1rem;
 }
 
 .popular-instructors h1{
@@ -1497,37 +1502,38 @@ color: #e91e62;
     display: none;
 }
 
-
-
 .instructors{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap:1rem ;
+   
+}
+
+.slider::after{
+    display: none;
 }
 
 .instructors .instructor1{
-    width: 230px;
-   
+    width: 100%;
 }
 
 .instructors .instructor1 img{
     width: 100%;
-    height:250px ;
+    height:auto ;
 }
 
 /* footer_sections */
 
 .foooter-container{
     margin-top: 80px;
-    padding: var(--max-width-768px);
-    flex-wrap: wrap;
-    
+    padding: 10px 1rem;
     width: 100%;
     height: auto;
 }
 
 .foooter-container .footer-text{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1%;
 }
 
@@ -1541,6 +1547,7 @@ color: #e91e62;
     padding: var(--max-width-768px);
     width: 100%;
  }
+
 
  hr{
     width: 100%;
