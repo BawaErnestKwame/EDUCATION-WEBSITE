@@ -254,9 +254,18 @@ p a:hover {
     }
     
     .container {
-        width: 95%;
+        width: 100%;
         height: auto;
         margin-top: 30px;
+        flex-direction: column-reverse;
+        height: 100%;
+        
+    }
+
+    .image-cont img {
+       
+        display: none;
+       
         
     }
     
