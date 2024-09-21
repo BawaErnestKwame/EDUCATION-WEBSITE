@@ -821,6 +821,7 @@ p{
 }
 
 .instructors .instructor1:hover{
+    border: 2px solid #e91e63;
     border-bottom: 4px solid #e91e63;
 }
 
@@ -1149,7 +1150,7 @@ color: #e91e62;
 
  .copyright{
     padding: 2rem 6rem;
-    background-color: #17025a;
+    background-color: #e91e62;
     text-align: center;
     width: 100%;
     height: 7vh;
@@ -1213,11 +1214,7 @@ color: #e91e62;
  }
 
 
-
-
-
-
-@media screen and (max-width:768px) {
+@media screen and  (max-width:768px) {
 
     nav{
         padding: 10px 2rem;
@@ -1233,10 +1230,35 @@ color: #e91e62;
     }
 
     .header-container{
-        padding: 30px .5rem;
+        padding: 30px .5Rem;
         width: 100%;
+        height: auto;
     
     }
+
+
+    
+    .header-container .title-image .title{
+        position: static;
+        width: 100%;
+    }
+    
+    .header-container .title-image .image img{
+        width: 90%;
+        height: 20rem;
+   
+    }
+    
+    
+
+    
+ 
+    
+ 
+
+    
+
+    
 
     .header-container .title-image{
         flex-direction: column;

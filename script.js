@@ -1,18 +1,20 @@
 
 
 // frequently asked quetions
-
+var opEn = document.querySelector(".open");
+var display = 0;
 
 function show(){
 
-let opEn = document.querySelector(".open");
-let shoanSwer = document.querySelector(".shoanSwer");
-
-opEn.style.display= 'block';
-shoanSwer.style.display = 'none';
-
-
-
+    if(display == 1){
+        opEn.style.display = 'block';
+        display = 0;
+    }
+    else{
+        opEn.style.display = 'none';
+        display = 1;
+    }
+    
 }
 
 
