@@ -10,6 +10,7 @@
     --man-body-padding:5rem;
     --span-background:darkorange;
     --transitions:0.5s;
+    --max-width-768px: 2rem;
     --font-family:Arial, Helvetica, sans-serif;
 
 }
@@ -91,6 +92,8 @@ span{
 h1{
     color: white;
 }
+
+
 
 .main-container {
     display: flex;
@@ -227,4 +230,50 @@ p a {
 
 p a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width:768px){
+    nav{
+        padding: 10px 2rem;
+        width: 100%;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+
+    .contact-infor{
+        display: none;
+    }
+
+    .nav-list .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .signup-form-container h1 {
+        font-size: 25px;
+
+    }
+
+
+    .main-container {
+        padding:var(--max-width-768px) ;
+        height: auto;
+        position: sticky;
+    
+    }
+    
+    .signup-container {
+        width: 95%;
+        height: auto;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        top: 30px;
+        overflow: hidden;
+    }
+
+    
 }

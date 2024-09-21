@@ -232,6 +232,36 @@ p a:hover {
     text-decoration: underline;
 }
 
+@media screen and (max-width:768px) {
+    nav{
+        padding: 10px 2rem;
+        width: 100%;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+
+    .contact-infor{
+        display: none;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    
+    .container {
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+        
+    }
+    
+}
+
 
 
 
