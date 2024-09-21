@@ -387,19 +387,19 @@ span{
 
 
 .course-number,
-.instructors,
+.instructorrs,
 .certification,
 .members,
 .acheivment{
     display: flex;
     align-items: center;
     gap: 1rem;
-    
+   
 
 }
 
 .course-number h2,
-.instructors h2,
+.instructorrs h2,
 .certification h2,
 .members h2,
 .acheivment
@@ -416,7 +416,7 @@ h2{
 }
 
 .course-number p,
-.instructors p,
+.instructorrs p,
 .certification p,
 .members p,
 .acheivment
@@ -1215,10 +1215,54 @@ color: #e91e62;
  }
 
 
+ @media screen and  (max-width:478px){
+    nav{
+        padding: 10px 1rem;
+        width: 100%;
+    }
+    
+
+    .nav-list li{
+        display: none;
+    }
+
+    .contact-infor{
+        display: none;
+    }
+
+    .header-container{
+        padding: 0rem;
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .header-container{
+        width: 100%;
+        width: 0rem;
+        
+     
+    }
+    
+    .header-container .title-image{
+       flex-direction: column;
+      
+       width: 100%;
+       padding: 0rem;
+    }
+    
+    .header-container .title-image .title{
+      width: 100%;
+    }
+
+
+ }
+
+
 @media screen and  (max-width:768px) {
 
     nav{
-        padding: 10px 2rem;
+        padding: 10px 1rem;
         width: 100%;
     }
     
@@ -1237,7 +1281,7 @@ color: #e91e62;
     }
 
     .header-container{
-        padding: 30px .5Rem;
+        padding: 20px 0rem;
         width: 100%;
         height: auto;
     
@@ -1247,29 +1291,26 @@ color: #e91e62;
     
     .header-container .title-image .title{
         position: static;
+       
+        padding: 10px 1rem;
+        width: 100%;
+    }
+
+    .header-container .title-image .title h1{
+        font-size: 1.9rem;
         width: 100%;
     }
     
     .header-container .title-image .image img{
-        width: 90%;
+        width: 80%;
+        margin-left: 1.5rem;
         height: 20rem;
    
-    }
+    } 
     
-    
-
-    
- 
-    
- 
-
-    
-
-    
-
     .header-container .title-image{
         flex-direction: column;
-        padding: 10px 2rem;
+        background-color: rgb(99, 72, 72);
 
      }
 
@@ -1291,11 +1332,23 @@ color: #e91e62;
 
      .about-website{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 1rem 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 0rem;
         width: 100%;
         gap: 1rem;
+    
+
     }
+
+    .course-number,
+.instructorrs,
+.certification,
+.members,
+.acheivment{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 15px 0;
+    padding: 1rem 1rem;
+}
 
    /* .who-we-are-continer section */
 
