@@ -1323,13 +1323,6 @@ color: #e91e62;
         margin-bottom: 20px;
      }
 
-     .who-we-are-continer{
-        flex-direction: column;
-        width: 100%;
-        padding: 1rem 1.5rem;
-     }
-
-
      .about-website{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1352,10 +1345,17 @@ color: #e91e62;
 
    /* .who-we-are-continer section */
 
+   .who-we-are-continer{
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 1rem;
+ }
+
     .who-we-are-continer img{
-        width: 80%;
+        width: 90%;
         margin-bottom: 20px;
         border-right: 5px solid #e91e63;
+        border-bottom: 8px solid white;
     }
     
     .who-we-are-continer p{
@@ -1365,7 +1365,6 @@ color: #e91e62;
     
     
     .who-we-are-continer .text .online-course-infor{
-       
         margin-top: 20px;
        
     }
@@ -1397,7 +1396,7 @@ color: #e91e62;
 .start_yourlearning_journey{
     width: 100%;
     height: auto;
-    padding: var(--max-width-768px);
+    padding:1rem 1rem;
 }
 
 .start_yourlearning_journey h2{
@@ -1427,7 +1426,9 @@ color: #e91e62;
 
 
 .our-popular-course{
-    padding: var(--max-width-768px);
+    margin-top: 40px;
+    width: 100%;
+    padding: 1rem 1rem;
     height: auto;
   
 }
@@ -1450,7 +1451,7 @@ color: #e91e62;
 
 .courses-card{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     color: black;
     gap: 20px;
 }
@@ -1460,7 +1461,7 @@ color: #e91e62;
 }
 
 .courses-card .card1{
-   width: 230px;
+   width: 100%;
    height: auto;
    box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
 }
