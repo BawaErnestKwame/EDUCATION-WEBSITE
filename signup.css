@@ -259,14 +259,16 @@ p a:hover {
 
 
     .main-container {
-        padding:var(--max-width-768px) ;
+        margin: 2rem;
         height: auto;
         position: sticky;
+
+        
     
     }
     
     .signup-container {
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         height: auto;
         background-color: #ffffff;
