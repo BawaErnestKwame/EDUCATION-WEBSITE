@@ -1215,6 +1215,8 @@ color: #e91e62;
  }
 
 
+
+
  @media screen and  (max-width:478px){
     nav{
         padding: 10px 1rem;
@@ -1306,13 +1308,10 @@ color: #e91e62;
         width: 80%;
         margin-left: 1.5rem;
         height: 20rem;
-   
     } 
     
     .header-container .title-image{
         flex-direction: column;
-      
-
      }
 
      .header-container .title-image img{
@@ -1330,8 +1329,10 @@ color: #e91e62;
         padding: 1rem 0rem;
         width: 100%;
         gap: 1rem;
-    
+    }
 
+    .login_signup{
+        margin-left: 30px;
     }
 
     .course-number,
@@ -1587,19 +1588,6 @@ color: #e91e62;
     gap: 10px;
   
 }
-
-
-
-
-
-
-
-
- 
-
-
-
-
 
  .footer-socials .fa-brands{
     font-size: 1.4rem;

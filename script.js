@@ -74,4 +74,16 @@ window.addEventListener('scroll', function() {
 // signup localStorage
 
 
+// chnage menu color when scrooll
+
+window.addEventListener("scroll", function() {
+    const menuIcon = document.getElementById("menu-icon");
+    if (window.scrollY > 50) {  // Adjust this value as per your needs
+        menuIcon.style.color = "black";
+    } else {
+        menuIcon.style.color = "#fff";
+    }
+});
+
+
 
