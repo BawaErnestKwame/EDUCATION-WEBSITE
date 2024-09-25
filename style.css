@@ -1272,9 +1272,7 @@ color: #e91e62;
         display: none;
     }
 
-    .contact-infor{
-        display: none;
-    }
+  
 
     .nav-list .fa-bars{
         color: #fff;
@@ -1289,6 +1287,10 @@ color: #e91e62;
     
     }
 
+
+      .contact-infor{
+        display: none;
+    }
 
     
     .header-container .title-image .title{
