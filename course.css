@@ -539,6 +539,10 @@ color: #e91e62;
         display: block;
     }
 
+    .our-coursepage{
+        height: 40vh;
+    }
+
 
     .our-coursepage h1{
         font-size: 2rem;
@@ -617,9 +621,15 @@ color: #e91e62;
     }
     
      .copyright{
+        justify-content: center;
+        align-items: center;
         padding: var(--max-width-768px);
         width: 100%;
+        padding-top: 12px
+
      }
+
+   
     
     
      hr{
