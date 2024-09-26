@@ -664,6 +664,18 @@ color: #e91e62;
         display: block;
     }
 
+    .header-container{
+        padding: 20px 0rem;
+        width: 100%;
+        height: auto;
+    
+    }
+
+
+      .contact-infor{
+        display: none;
+    }
+
     .contact-infor{
     display: none;
     

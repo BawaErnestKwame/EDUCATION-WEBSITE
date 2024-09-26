@@ -540,7 +540,7 @@ color: #e91e62;
     }
 
     .our-coursepage{
-        height: 40vh;
+        height: 30vh;
     }
 
 
@@ -634,6 +634,7 @@ color: #e91e62;
     
      hr{
         width: 100%;
+        margin-top: 20px;
         height: 1px;
         background-color: gray;
        
