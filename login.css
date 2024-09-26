@@ -234,7 +234,7 @@ p a:hover {
 
 @media screen and (max-width:768px) {
     nav{
-        padding: 10px 2rem;
+        padding: 10px 1rem;
         width: 100%;
     }
 
@@ -253,24 +253,20 @@ p a:hover {
         height: auto;
         width: 100%;
         height: auto;
-        padding: 2rem;
+        padding: 1rem;
 
     }
     
     .container {
         width: 100%;
         height: auto;
-        margin-top: 30px;
+        margin-top: 20px;
         flex-direction: column-reverse;
         height: 100%;
-        
     }
 
     .image-cont img {
-       
-        display: none;
-       
-        
+        display: none; 
     }
     
 }
