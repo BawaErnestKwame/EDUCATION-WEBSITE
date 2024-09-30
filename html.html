@@ -50,24 +50,139 @@
         </div>
     </nav>
 
+    <div class="main_container">
 
-    <div class="container">
+        <div class="side_bar">
+            <div class="side_bar_div">
+            <h1>HTML Tutorials</h1>
+            <button class="html_tot" id="html_tot">HOME</button>
+            <button class="html_tot" id="basic_HTML_Document">Basic HTML Document</button>
+            <button class="html_tot" id="html_tot">HTML Tags </button>
+            <button class="html_tot" id="html_tot">Heading Tags </button>
+            <button class="html_tot" id="html_tot">Line Break Tag </button>
+            <button class="html_tot" id="html_tot">HTML Elements</button>
+            <button class="html_tot" id="html_tot">HTML Tag vs. Element </button>
+            <button class="html_tot" id="html_tot">Nested HTML Elements </button>
+            <button class="html_tot" id="html_tot">HTML Attributes</button>
+            <button class="html_tot" id="html_tot">Core Attributes </button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+            <button class="html_tot" id="html_tot"></button>
+        </div>
+
+        </div>
+
+        <div class="content_container">
+    <div class="container" id="html_tot">
         <h1><span>HTML</span> INTRODUCTION</h1>
-        <p>HTML stands for <b>H</b>ypertext <b>M</b>arkup <b>L</b>anguage, and it is the most widely used language to write Web Pages.<br> 
-            •	Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.  
-            </p>
+        <p><b>HTML</b> stands for <b>H</b>ypertext <b>M</b>arkup <b>L</b>anguage, and it is the most widely used language to write Web Pages.<br> 
+           Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.  
+        </p>
 
-            <p>   •	As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display. 
-                Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers. 
-                Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.</p>
+        <p>As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display. 
+          Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers. 
+          Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.
+        </p>
     </div>
 
+    <div class="html-documents" id="basic_HTML_Document">
+        <p class="head">In its simplest form, following is an example of an HTML document: </p>
 
+        <div class="box_answer">
+        <div class="box">
+            <p>
+              &lt;!DOCTYPE html&gt;<br>
+              &lt;html&gt;<br>
+              &lt;head&gt;<br>
+              &lt;b&gt;&lt;/b&gt;&lt;title&gt;This is document title&lt;/title&gt;<br>
+              &lt;/head&gt;<br>
+              &lt;body&gt;<br>
+              &lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+              &lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+              &lt;/body&gt;<br>
+              &lt;/html&gt;<br>
+            </p>
+          </div>
 
+          <div class="answers">
+            <button class="try_btn" id="try_btn" onclick="openDocument()">Try it Your Self</button>
+            <div class="displays" id="display">
+                <small>Here is the Output</small>
+                <h1>This is a Heading
+                </h1>
+                <p>Document content goes here.....</p>
+            </div>
 
-    <!-- foooter sections -->
+           
+          </div>
 
-    <div class="foooter-container">
+        </div>
+    </div>
+
+    <div class="html_tags_container">
+        <h1>HTML tags</h1>
+        <p>HTML tags are the building blocks of HTML (HyperText Markup Language), used to structure content on a webpage. 
+            Each HTML tag defines a different element or part of the document, such as text, images, links, and more.</p>
+
+            <div class="tages_table">
+                <table>
+                 <tr>
+                    <th>Tages</th>
+                    <th>Description</th>
+                 </tr>
+                 <tr>
+                    <td>&lt;!DOCTYPE...&gt; </td>
+                    <td>This tag defines the document type and HTML version. </td>
+                   
+                 </tr>
+
+                 <tr>
+                    <td>
+                        &lt;html &gt;
+                    </td>
+                    <td>This tag encloses the complete HTML document and mainly comprises of document header which is
+                         represented by &lt;head&gt;...&lt;/head&gt; and document body which is represented by &lt;body&gt;...&lt;/body&gt; tags&lt;/td&gt;
+                 </tr>
+
+                 <tr> 
+                    <td>&lt;head&gt;</td>
+                    <td>This tag represents the document's header which can keep other 
+                        HTML tags like &lt;title&gt;, &lt;link&gt; etc.&lt;/td&gt;
+                 </tr>
+
+                 <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>This tag represents the document's body which keeps other HTML 
+                        tags like &lt;h1&gt;, &lt;div&gt;, &lt;p&gt; etc. &lt;/td&gt;
+                 </tr>
+                 <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td>	This tag represents the heading. 
+                 </tr>
+                 <tr>
+                    <td>&lt;p&gt;</td>
+                    <td><p> 	This tag represents a paragraph. 
+                 </tr>
+
+                </table>
+            </div>
+    </div>
+
+     <!-- foooter sections -->
+
+     <div class="foooter-container">
         <div class="footer-text">
             <div class="flex1">
                 <div class="logo-footer">
@@ -138,6 +253,12 @@
         <p>Copyright 2024 <i class="fa-regular fa-copyright"></i>, All Right Reserved</p>
     </div>
 
+</div>
+</div>
+
+
+
+   
     <script src="/script.js">
 
     </script>

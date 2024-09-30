@@ -1,5 +1,7 @@
 
 
+
+
 // frequently asked quetions
 var opEn = document.querySelector(".open");
 var display = 0;
@@ -84,6 +86,24 @@ window.addEventListener("scroll", function() {
         menuIcon.style.color = "#fff";
     }
 });
+
+
+
+// html page
+// open and display html documents
+function openDocument(){
+    const displayanswer = document.querySelector("#display"); // Use appropriate selector (e.g., class or id)
+    
+    // Check the actual style property, not the element itself
+    if(displayanswer.style.display === 'none'){
+        displayanswer.style.display = 'block';
+    } else {
+        displayanswer.style.display = 'none';
+    }
+}
+
+
+
 
 
 
