@@ -9,7 +9,7 @@
     --man-body-padding:5rem;
     --span-background:darkorange;
     --transitions:0.5s;
-    --font-family:Arial, Helvetica, sans-serif;
+    --font-family:"Roboto", sans-serif;
     --form-bacground:#fff;
 
 } 
@@ -193,6 +193,23 @@ span{
 
 h1{
     color: white;
+}
+
+.container{
+    padding: 2rem 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.container p{
+    margin-top: 20px;
+    line-height: 1.2;
+    letter-spacing: .5px;
+    font-size: 15px;
 }
 
 

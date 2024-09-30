@@ -11,10 +11,25 @@
     --line-height: 1.4;
     --transitions:0.5s;
     --letter-spacing: 1.1px;
-    --font-family:Arial, Helvetica, sans-serif;
+    --font-family: "Roboto", sans-serif;
     --max-width-768px: 2rem;
 
 } 
+
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #e4c1d1;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e91e63, #17025a);
+    border-radius: 7px;
+}
 
 *{
     margin: 0;
@@ -145,7 +160,7 @@ nav .nav-list li{
 
 }
 
-.fa-xmark{
+.nav-list .fa-xmark{
     color: black;
     font-size: 1.5rem;
     font-weight: bold;
