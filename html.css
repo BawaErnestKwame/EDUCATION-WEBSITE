@@ -750,6 +750,315 @@ color: #e91e62;
    
  }
 
+@media screen and (max-width:768px) {
+
+    nav{
+        padding: 10px 1rem;
+        width: 100%;
+    }
+    
+    .nav-list li{
+        display: none;
+    }
+
+
+
+    /* .main_container content */
+
+.main_container {
+    display: flex;
+    gap: 0px;
+}
+
+
+
+.container b{
+    font-size: 1.1rem;
+}
+
+.main_container .content_container{
+    margin-left: 0px;
+    padding: 1rem;
+}
+
+.main_container .container{
+    padding-right: 0rem;
+    margin-top: 80px;
+   
+}
+
+.container p{
+    line-height: 1.7;
+}
+
+.main_container .side_bar {
+    display: none;
+}
+
+
+
+.html-documents{
+    width: 100%;
+    
+}
+
+.html-documents .head{
+    color: #010052;
+}
+
+.html-documents .box_answer{
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.html-documents .box{
+background-color: #f4f4f4;
+border: 2px solid;
+padding: 10px;
+width: 100%;
+}
+
+.html-documents .box_answer .displays{
+    background-color: #f4f4f4;
+    width: 100%;
+    
+}
+
+.html-documents .box_answer .displays small{
+    color: #e91e63;
+}
+
+
+    .nav-list .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    /* .side_bar */
+    .side_bar{
+        display: none;
+    }
+
+
+    .html_tags_container{
+        padding-right: 0rem;
+    }
+    
+    .html_tags_container h1{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    
+ 
+    
+    table{
+        width: 100%;
+    }
+    
+    /* html_headings section */
+    
+    .html_headings{
+        letter-spacing: .5px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .html_headings .title{
+        width: 100%;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    
+    .html_headings .title h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .html_headings .heading_example{
+        background-color: rgb(170, 169, 169);
+        padding: 10px;
+        padding-right: 0rem;
+        width: 100%;
+    }
+    
+    .html_headings .heading_example .tages{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .html_headings .heading_example .tages .codes{
+        width: 100%;
+    }
+    
+    .html_headings .heading_example .tages .out_put_container{
+        width: 100%;
+    }
+
+    /* <!-- html links_page  */
+
+
+.links_page .title{
+    width: 100%;
+    padding-right: 0rem;
+   
+}
+
+.links_page .title h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.links_page .title p{
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.links_page .link_hperlink{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 100%;
+    padding-right: 0rem;
+}
+
+
+.links_page .link_hperlink h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #e91e62;
+}
+
+.links_page .link_hperlink .note{
+   line-height: 1.5;
+    width: 100%;
+}
+
+
+.links_page .types_of_links h2{
+    color: #e91e62;
+    margin-bottom: 5px;
+}
+
+.links_page .types_of_links .overview{
+    font-size: 15px;
+    width: 100%;
+}
+
+.links_page .types_of_links .note{
+    padding: 10px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.video_link_description{
+    height: 48vh;
+}
+
+.video_link_description h1{
+    font-size: 20px;
+    color: white;
+}
+
+.video_link_description .video_container img{
+    width: 100%;
+    opacity: .6;
+}
+
+    /* footer_sections */
+
+.foooter-container{
+    margin-top: 80px;
+    padding: 10px 2rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+.foooter-container .footer-text{
+ flex-wrap: wrap;
+  gap: 1%;
+}
+
+.flex1 p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    width: 260px;
+}
+
+ .copyright{
+    padding: var(--max-width-768px);
+    width: 100%;
+ }
+
+
+ hr{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+   
+ }
+
+
+
+.flex2 .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.flex3 .links{
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.logo-footer{
+    color: #eef3ed;
+    margin-bottom: 10px;
+}
+
+
+
+.mail,
+ .call
+  ,.location{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+  
+}
+
+ .footer-socials .fa-brands{
+    font-size: 1.4rem;
+    color: #eef3ed;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fc5304;
+    padding: 5px;
+    border-radius: 8px;
+   
+ }
+
+ .flex5{
+    background-color: #e91e63;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 120px;
+    line-height: 2;
+    font-size: 20px;
+    color: #eef3ed;
+    text-align: center;
+   
+ }
+
+ 
+    
+}
+
 
 
 
