@@ -9,7 +9,7 @@
     --man-body-padding:5rem;
     --span-background:darkorange;
     --transitions:0.5s;
-    --font-family:"Poppins", sans-serif;
+    --font-family:"Roboto", sans-serif;
     --form-bacground:#fff;
 
 } 
@@ -605,6 +605,7 @@ td{
     background-color: var(--main-background-color);
     padding: 2rem 1rem;
     color: #eef3ed;
+    margin-left: 270px;
     display: flex;
     width: 100%;
    flex-direction: column;
@@ -690,6 +691,7 @@ color: #e91e62;
     text-align: center;
     width: 100%;
     height: 7vh;
+    margin-left: 270px;
     color: #eef3ed;
     letter-spacing: .5px;
     z-index: 1000;
@@ -971,6 +973,7 @@ width: 100%;
     margin-top: 80px;
     padding: 10px 2rem;
     width: 100%;
+    margin-left: 0;
     height: auto;
     
 }
@@ -989,6 +992,8 @@ width: 100%;
  .copyright{
     padding: var(--max-width-768px);
     width: 100%;
+    margin-left: 0;
+    padding-top: 10px;
  }
 
 
