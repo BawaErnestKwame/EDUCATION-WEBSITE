@@ -104,6 +104,19 @@ function openDocument(){
 
 
 
+// heading tages 
+
+function showTages(){
+    const outPuttages = document.getElementById("id_outTag");
+    if(outPuttages.style.display === "none"){
+        outPuttages.style.display = "block";
+    }else{
+        outPuttages.style.display = 'none';
+    }
+}
+
+
+
 
 
 

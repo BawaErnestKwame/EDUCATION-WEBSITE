@@ -13,7 +13,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,
+<link href="https://fonts.googleapis.com/css2?family=Verdana:ital,wght@0,100;0,300;0,400;0,500;0,
 700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -153,19 +153,19 @@
                         &lt;html &gt;
                     </td>
                     <td>This tag encloses the complete HTML document and mainly comprises of document header which is
-                         represented by &lt;head&gt;...&lt;/head&gt; and document body which is represented by &lt;body&gt;...&lt;/body&gt; tags&lt;/td&gt;
+                         represented by <b>&lt;head&gt;...&lt;/head&gt;</b> and document body which is represented by <b>&lt;body&gt;...&lt;/body&gt; tags&lt;/td&gt;</b>
                  </tr>
 
                  <tr> 
                     <td>&lt;head&gt;</td>
                     <td>This tag represents the document's header which can keep other 
-                        HTML tags like &lt;title&gt;, &lt;link&gt; etc.&lt;/td&gt;
+                        HTML tags like <b>&lt;title&gt;, &lt;link&gt; etc.&lt;/td&gt;</b>
                  </tr>
 
                  <tr>
                     <td>&lt;body&gt;</td>
                     <td>This tag represents the document's body which keeps other HTML 
-                        tags like &lt;h1&gt;, &lt;div&gt;, &lt;p&gt; etc. &lt;/td&gt;
+                        tags like <b>&lt;h1&gt;, &lt;div&gt;, &lt;p&gt; etc. &lt;/td&gt;</b>
                  </tr>
                  <tr>
                     <td>&lt;h1&gt;</td>
@@ -179,6 +179,143 @@
                 </table>
             </div>
     </div>
+
+    <div class="html_headings">
+
+        <div class="title">
+            <h1>HTML Headings</h1>
+            <p>HTML headings are titles or subtitles that you want to display on a webpage.</p>
+
+        </div>
+
+        <div class="heading_example">
+            <h3>Example</h3>
+            <div class="tages">
+                <div class="codes">
+                    <p>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                        &lt;head&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br>
+                        &lt;h1&gt;This is a heading 1&lt;/h1&gt;<br>
+                        &lt;h2&gt;This is a heading 2&lt;/h2&gt;<br>
+                        &lt;h3&gt;This is a heading 3&lt;/h3&gt;<br>
+                        &lt;h4&gt;This is a heading 4&lt;/h4&gt;<br>
+                        &lt;h5&gt;This is a heading 5&lt;/h5&gt;<br>
+                        &lt;h6&gt;This is a heading 6&lt;/h6&gt;<br>
+                      
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;<br>
+                      </p>
+
+                </div>
+
+                <div class="out_put_container">
+                    <button class="try_btn" onclick="showTages()">Try it Your Self</button>
+                <div class="out_put" id="id_outTag">
+                    <h1>This is a heading 1</h1>
+                    <h2>This is a heading 2</h2>
+                    <h3>This is a heading 3</h3>
+                    <h4>This is a heading 4</h4>
+                    <h5>This is a heading 5</h5>
+                    <h6>This is a heading 6</h6>
+
+                </div>
+            </div>
+            </div>
+        </div>
+ 
+    </div>
+
+
+    <!-- html links_page -->
+
+
+    <div class="links_page">
+        <div class="title">
+            <h1>HTML Links</h1>
+            <p>HTML links, also called hyperlinks, allow users to navigate from one webpage to another or to different 
+            sections within the same page. Links are created using the <span>&lt;a&gt;</span> (anchor) tag./p>
+        </div>
+   
+
+        <div class="link_hperlink">
+            <h2>HTML Links - Hyperlinks</h2>
+            <p>HTML links are hyperlinks.You can click on a link and jump to another document.</p>
+            <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+            <div class="note">
+                <b>Note:  A link does not have to be text. A link can be an image or any other HTML element!</b>
+            </div>
+        </div>
+
+        <div class="structure_links">
+            <p> <span>&lt;a&gt;</span>: The anchor tag that defines the link.</p>
+            <p><span>href:</span> The href attribute specifies the destination URL (the page or resource the link points to).</p>
+            <p><span>Clickable text:</span> The text inside the anchor tag that users can click to follow the link.</p>
+           
+        </div>
+
+        <div class="types_of_links">
+            <h2>DEFFERENCE TYPES OF LINKS</h2>
+            <div class="link_one">
+               
+                <p> <span>External Links:</span> It direct users to other websites.</p>
+                <div class="overview">
+                    &lt;a&gt; href="https://www.google.com">Go to Google &lt;/a&gt;
+
+
+                </div>
+            </div>
+            <div class="link_one">
+                <p><span>Internal Links:</span> Direct users to another page on the same website.</p>
+                <div class="overview">
+                    &lt;a&gt; href="about.html">About Us &lt;/a&gt;
+                </div>
+                </div>
+
+
+
+                <div class="link_one">
+                <p><span>Anchor Links:</span> Jump to a specific section within the same page.</p>
+                <div class="overview">
+                    &lt;a&gt; href="#section1">Go to Section 1 &lt;/a&gt;
+<!-- This will scroll to an element with the id "section1" -->
+                </div>
+                </div>
+
+
+                <div class="link_one">
+                <p><span>Email Links:</span> Open the user's email client to send an email.</p>
+                <div class="overview">
+                    &lt;a&gt; href="#section1">Go to Section 1 &lt;/a&gt;
+<!-- This will scroll to an element with the id "section1" -->
+                </div>
+                </div>
+
+             <div class="note">
+                <p>Note: Links are an essential part of website navigation and 
+                    help connect different pages and resources on the web</p>
+             </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="video_link_description">
+            <h1>CLICK HERE TO LERAN MORE</h1>
+           <div class="video_container">
+            <a href="https://youtu.be/kUMe1FH4CHE?si=7pk4dITnipogYxXF">
+                <img src="./images/YouTube logo png.jpeg" alt="video player" id="html_video">
+            </a>
+           </div>
+        
+        </div>
+
+
+
+    
 
      <!-- foooter sections -->
 
@@ -256,9 +393,6 @@
 </div>
 </div>
 
-
-
-   
     <script src="/script.js">
 
     </script>
