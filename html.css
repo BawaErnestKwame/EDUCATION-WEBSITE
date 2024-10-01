@@ -245,7 +245,7 @@ nav .nav-list li{
     margin-top: 20px;
     line-height: 1.5;
     letter-spacing: .5px;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 
@@ -280,7 +280,7 @@ nav .nav-list li{
     outline: none;
     padding: 10px;
     background-color: transparent;
-    font-size: 15px;
+    font-size: 1rem;
     transition: .5s;
     width: 100%;
     float: left;
@@ -330,7 +330,7 @@ width: 50%;
     background-color: green;
     color: aliceblue;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer; 
     transition: .5s;
 }
@@ -357,7 +357,7 @@ width: 50%;
     padding-right: 6rem;
     margin-top: 40px;
     color: #eef3ed;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .html_tags_container h1{
@@ -367,7 +367,7 @@ width: 50%;
 }
 
 .html_tags_container p{
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -457,7 +457,7 @@ td{
     background-color: green;
     color: aliceblue;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer; 
     transition: .5s;
     margin: 5px;
@@ -505,7 +505,7 @@ td{
 }
 
 .links_page .link_hperlink p {
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: .5px;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -519,12 +519,12 @@ td{
     color: #f5f106;
     border-radius: 8px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     margin-bottom: 50px;
 }
 
 .structure_links p{
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 20px;
     letter-spacing: .5px;
 }
@@ -556,7 +556,7 @@ td{
     color: #f5f106;
     border-radius: 8px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     margin-bottom: 50px;
 
 }
@@ -620,7 +620,7 @@ td{
 }
 
 .flex1 p{
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: .5px;
     width: 300px;
 
@@ -664,7 +664,7 @@ color: #e91e62;
 .links a{
     text-decoration: none;
     color: #eef3ed;
-    font-size: 15px;
+    font-size: 1rem;
     transition: .5s;
 }
 
@@ -971,7 +971,7 @@ width: 100%;
 
 .foooter-container{
     margin-top: 80px;
-    padding: 10px 2rem;
+    padding: 10px 1rem;
     width: 100%;
     margin-left: 0;
     height: auto;
@@ -984,7 +984,7 @@ width: 100%;
 }
 
 .flex1 p{
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: .5px;
     width: 260px;
 }
@@ -993,13 +993,14 @@ width: 100%;
     padding: var(--max-width-768px);
     width: 100%;
     margin-left: 0;
-    padding-top: 10px;
+    padding-top: 15px;
  }
 
 
  hr{
     width: 100%;
     height: 1px;
+    margin-top: 10px;
     background-color: gray;
    
  }
