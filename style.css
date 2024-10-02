@@ -1291,6 +1291,7 @@ color: #e91e62;
     }
 
     .header-container{
+      margin-top: 30px;
         padding: 20px 0rem;
         width: 100%;
         height: auto;
