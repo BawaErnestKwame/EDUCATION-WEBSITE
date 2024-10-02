@@ -74,12 +74,14 @@ nav .logo h1{
 nav .nav-list{
     display: flex;
     gap: 2rem;
+    
     /* flex-wrap: wrap; */
     align-items: center;
 }
 
 nav .nav-list li{
     list-style: none;
+    
 }
 
  .nav-list li a{
@@ -1282,7 +1284,7 @@ color: #e91e62;
 
   
 
-    .nav-list .fa-bars{
+    nav .nav-list .fa-bars{
         color: #fff;
         font-size: 1.5rem;
         display: block;
