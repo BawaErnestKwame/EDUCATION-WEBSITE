@@ -287,9 +287,6 @@ h1{
     gap: 4rem;
 }
 
-.why_chose_use .why_choose_us_text{
-    
-}
 
 .why_chose_use .why_choose_us_text h1{
     color: #e91e63;
@@ -738,10 +735,6 @@ color: #e91e62;
     flex-direction: column;
     padding: 1rem;
     gap: 3rem;
-}
-
-.why_chose_use .why_choose_us_text{
-    
 }
 
 .why_chose_use .why_choose_us_text h1{
