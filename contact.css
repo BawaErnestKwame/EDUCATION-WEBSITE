@@ -56,6 +56,11 @@ nav .nav-list li{
     list-style: none;
 }
 
+nav a{
+    text-decoration: none;
+    color: #eef3ed;
+}
+
  .nav-list li a{
     text-decoration: none;
     color: var(--text-color);
@@ -203,7 +208,7 @@ h1{
     justify-content: center;
     padding: 10px 6rem;
     text-align: center;
-    background: linear-gradient(to right, blue, #17025aa4),
+    background: linear-gradient(to right, rgb(91, 91, 173), #17025aa4),
     url(./images/download.jpeg);
 }
 
@@ -429,12 +434,18 @@ color: #e91e62;
 
  .copyright{
     padding: 2rem 6rem;
-    background-color: #17025a;
+    background-color: #e91e63;
     text-align: center;
     width: 100%;
     height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
     color: #eef3ed;
     letter-spacing: .5px;
+
  }
 
  hr{
@@ -514,6 +525,181 @@ color: #e91e62;
         padding: 1rem;
         flex-direction: column;
         gap: 5%;
+        height: auto;
+    
+     }
+    
+     .contact_us_getin_touch_right_left .left{
+        padding: 5rem 2rem;
+        
+        width: 100%;
+        height: 100%;
+       
+    
+     }
+    
+     .emails,
+     .coallus,
+     .contactus2{
+        display: flex;
+        gap: 0.7rem;
+        font-size: 15px;
+     }
+    
+     .contact_us_getin_touch_right_left .right{
+        margin-top: 20px;
+        width: 100%;
+     }
+    
+     .mapps_toshow{
+        padding: 1rem;
+        height: 70vh;
+     }
+    
+     .mapps_toshow img{
+        width: 100%;
+        height: 100%;
+     }
+    
+    /* 
+    footer-designs */
+
+    .foooter-container{
+        margin-top: 10px;
+        padding: 10px 1rem;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .foooter-container .footer-text{
+     flex-wrap: wrap;
+      gap: 1%;
+    }
+    
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 260px;
+    }
+    
+     .copyright{
+        padding: var(--max-width-768px);
+        width: 100%;
+     }
+    
+    
+     hr{
+        width: 100%;
+        height: 1px;
+        background-color: gray;
+       
+     }
+    
+    
+    
+    .flex2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .flex3 .links{
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .mail,
+     .call
+      ,.location{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap: 10px;
+      
+    }
+    
+     .footer-socials .fa-brands{
+        font-size: 1.4rem;
+        color: #eef3ed;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: #fc5304;
+        padding: 5px;
+        border-radius: 8px;
+       
+     }
+    
+     .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 120px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+    
+
+    
+ }
+
+
+
+
+ @media screen and (min-width:768px) {
+    nav{
+        padding: 10px 1rem;
+        width: 100%;
+    }
+    
+    .nav-list li{
+        display: none;
+    }
+
+  
+
+    .nav-list .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: none;
+    }
+
+    .header-container{
+        padding: 20px 0rem;
+        width: 100%;
+        height: auto;
+    
+    }
+
+
+      .contact-infor{
+        display: none;
+    }
+
+    .container{
+        width: 100%;
+        height: 35vh;
+        padding: 1rem;
+       
+    }
+
+    .contact_us_getin_touch_right_left{
+        padding: 1rem;
+        flex-direction: row;
+        gap: 2%;
         height: auto;
     
      }

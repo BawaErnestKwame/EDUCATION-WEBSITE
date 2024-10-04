@@ -715,14 +715,6 @@ color: #e91e62;
         text-align: center;
         font-size: 1.3rem;
     }
-    
-    
-  
-    
- 
-    
-   
-    
  
     .text_user1 .image_right img{
         display: none;
@@ -859,6 +851,8 @@ color: #e91e62;
    
     padding: var(--max-width-768px);
     width: 100%;
+    background-color: #e91e62;
+    padding-top: 20px;
  }
 
 
@@ -923,17 +917,290 @@ color: #e91e62;
     text-align: center;
    
  }
+ }
+
+ @media screen and (min-width:768px){
+    nav{
+        padding: 10px 1rem;
+        width: 100%;
+    }
+    
+    .nav-list li{
+        display: none;
+    }
+
+  
+
+    .nav-list .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+        margin-right: 20px;
+    }
+
+    .header-container{
+        padding: 20px 0rem;
+        width: 100%;
+        height: auto;
+    
+    }
 
 
+      .contact-infor{
+        display: block;
+    }
 
 
+    .about_us_container{
+        background: linear-gradient(to right, #8c77d1ec, rgba(0 , 0, 0, 0.3)),url(./images/books.jpeg);
+        width: 100%;
+        height: 40vh;
+        background-position: center;
+        
+    }
+    
+    
+    /* are_becode_team */
+    
+    .are_becode_team{
+      width: 100%;
+      height: auto;
+       
+    }
+    
+    .are_becode_team .text_user1{
+        background-color: #fff;
+        padding: 1rem;
+        gap: .5rem;
+        top: 10px;
+        height: auto;
+        width: 100%;
+    }
+
+    .are_becode_team .text_user1 h1{
+        color: #e91e63;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .are_becode_team .text_user1 h2{
+        color: #e91e63;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+ 
+    .text_user1 .image_right img{
+        object-fit: cover;
+        
+    }
+
+    /* why_chose_use */
+
+.why_chose_use{
+    flex-direction: column;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.why_chose_use .why_choose_us_text h1{
+    text-shadow: 0px 10px 10px rgba(0 , 0, 0, 0.5);
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.why_chose_use .why_choose_us_text p{
+    line-height: 1.5;
+    letter-spacing: .8px;
+    font-size: 1rem;
+    
+}
+
+.why_chose_use .why_choose_us_image img{
+    width: 90%;
+    height:400px ;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.why_chose_use .infor{
+    display: flex;
+    gap: 4rem;
+    margin-top: 20px;
+}
+
+.why_chose_use .infor h3{
+    font-size: .8rem;
+    color: #e28408;
+    margin-bottom: 5px;
+}
+
+.why_chose_use .infor .right .first_infor{
+    display: flex;
+    background-color: #5a0117;
+    padding: 5px;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.why_chose_use .infor .left .first_infor{
+    border-right: 5px solid whitesmoke;
+    display: flex;
+    background-color: #5a0117;
+    padding: 5px;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.popular-instructors{
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+
+}
+
+.instructors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.instructors p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.instructors .instructor1{
+    width: 100%;
+    height: auto;
+    border: 2px solid #e91e63;
+    border-bottom: 6px solid #e91e63;
+}
 
 
+.instructors .instructor1 img{
+    width: 100%;
+    height:150px ;
+    
+}
 
-
-
-
+.ready_to_kick_start_your_career{
+    width: 100%;
+    height: 30vh;
+    padding: 1rem;
+    background-color: #e91e63;
 
     
+    
+}
 
+.ready_to_kick_start_your_career h3{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+
+
+.ready_to_kick_start_your_career .items::before{
+    content: "";
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    top: 80px;
+    right: 80px;
+}
+
+
+.foooter-container{
+    margin-top: 0px;
+    padding: 10px 1rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+.foooter-container .footer-text{
+ flex-wrap: wrap;
+  gap: 1%;
+}
+
+.flex1 p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    width: 260px;
+}
+
+ .copyright{
+   
+    padding: var(--max-width-768px);
+    width: 100%;
+    background-color: #e91e62;
+    padding-top: 20px;
  }
+
+
+ hr{
+    width: 100%;
+    height: 1px;
+    padding: 0px;
+ }
+
+
+
+.flex2 .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.flex3 .links{
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.logo-footer{
+    color: #eef3ed;
+    margin-bottom: 10px;
+}
+
+
+
+.mail,
+ .call
+  ,.location{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+  
+}
+
+ .footer-socials .fa-brands{
+    font-size: 1.4rem;
+    color: #eef3ed;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fc5304;
+    padding: 5px;
+    border-radius: 8px;
+   
+ }
+
+ .flex5{
+    background-color: #e91e63;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 120px;
+    line-height: 2;
+    font-size: 20px;
+    color: #eef3ed;
+    text-align: center;
+   
+ }
+    
+ }
+
+ 

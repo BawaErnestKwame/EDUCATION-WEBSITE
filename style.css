@@ -1379,6 +1379,7 @@ color: #e91e62;
     .who-we-are-continer p{
         letter-spacing: .5px;
         line-height: 1.5;
+        width: 500px;
     }
     
     
@@ -1402,7 +1403,7 @@ color: #e91e62;
     
     .text h1{
         background-color: #e91e62;
-        width: 120px;
+        width: 60px;
         height: 60px;
        
     }
@@ -1488,11 +1489,17 @@ color: #e91e62;
    box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
 }
 
+.courses-card .card1 img{
+    object-fit: contain;
+    
+}
+
 .get-started-btn a{
     text-decoration: none;
     color: #eef3ed;
 
 }
+
 
 
 /* .popular-instructors sections */
