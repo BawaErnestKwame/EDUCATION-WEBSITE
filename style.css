@@ -448,6 +448,7 @@ p{
     margin-top: 30px;
     padding: 1rem 6rem;
     gap: 5%;
+    position: relative;
 }
 
 .who-we-are-continer img{
@@ -455,6 +456,40 @@ p{
     border-top-left-radius: 80px;
     width: 41%;
     box-shadow: 5px 5px 10px rgba(141, 81, 81, 0.3);
+}
+
+.who-we-are-continer img:hover ~ .student_enrolled{
+    transform: translateY(-7px) scale(1.2);
+}
+
+.student_enrolled{
+    width: 15%;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    left: 350px;
+    bottom: 90px;
+    box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+    transition: .5s;
+}
+
+.student_enrolled:hover{
+    transform: translateY(-7px);
+}
+
+.student_enrolled h1{
+    font-size: 2rem;
+    color: #17025a;
+
+}
+
+.student_enrolled p{
+    font-size: 2.5rem;
+    letter-spacing: .7px;
+    color: #e91e62;
 }
 
 .who-we-are-continer h3{
@@ -523,7 +558,28 @@ p{
     background: linear-gradient(rgba(3, 5, 150, 0.809),
      rgba(1, 3, 155, 0.805)),
       url(./images/download.jpeg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
 
+}
+
+.start_yourlearning_journey .txt{
+    width: 50%;
+}
+
+.start_yourlearning_journey img{
+    display: inline;
+    width: 30%;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+.start_yourlearning_journey a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
 }
 
 .start_yourlearning_journey h2{
@@ -1224,9 +1280,7 @@ color: #e91e62;
    
  }
 
- .start_yourlearning_journey img{
-    display: none;
-}
+
 
  @media screen and  (max-width:992px) {
     nav{
@@ -1312,6 +1366,26 @@ color: #e91e62;
         margin-bottom: 20px;
         border-right: 5px solid #e91e63;
         border-bottom: 8px solid white;
+    }
+
+    .student_enrolled{
+        width: 20%;
+        height: 100px;
+        background-color: aliceblue;
+        padding: 20px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        position: absolute;
+        left: 150px;
+        bottom: 100px;
+        box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+        transition: .5s;
+    }
+    
+    .student_enrolled:hover{
+        border: 4px outset rgb(9, 0, 133);
+        padding: 10px;
+        
     }
 
 
@@ -1571,24 +1645,6 @@ color: #e91e62;
 
 
 
-
-
-   
-    
-    
-
-   
-    
-
-
-       
-
-
- }
-
-
-
-
 @media screen and  (max-width:768px) {
 
     nav{
@@ -1677,6 +1733,28 @@ color: #e91e62;
     padding: 1rem 1rem;
 }
 
+.student_enrolled{
+    width: 30%;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    left: 350px;
+    bottom: 650px;
+    box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+    transition: .5s;
+    display: none;
+}
+
+.student_enrolled:hover{
+    border: 4px outset rgb(9, 0, 133);
+    padding: 10px;
+    display: none;
+    
+}
+
    /* .who-we-are-continer section */
 
    .who-we-are-continer{
@@ -1732,7 +1810,25 @@ color: #e91e62;
     width: 100%;
     height: auto;
     padding:1rem 1rem;
+    
 }
+
+.start_yourlearning_journey img{
+    display: none;
+}
+
+
+
+/* .start_yourlearning_journey .txt{
+    width: 100%;
+}
+
+.start_yourlearning_journey img{
+    display: inline;
+    width: 100%;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+} */
 
 .start_yourlearning_journey h2{
     color: var(--text-color);
@@ -1775,6 +1871,7 @@ color: #e91e62;
 .our-popular-course p{
     letter-spacing: .5px;
     line-height: 1.5;
+    width: 95%;
    
 }
 
