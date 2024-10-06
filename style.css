@@ -1671,11 +1671,13 @@ color: #e91e62;
     height: 40px;
     border-radius: 20px;
     margin-top: 60px;
-    margin-left: 120px;
+    margin-left: 200px;
     line-height: 2;
     font-size: 20px;
     color: #eef3ed;
     text-align: center;
+    position: relative;
+    left: 220px;
    
  }
 }
@@ -1732,7 +1734,23 @@ color: #e91e62;
     }
 
     .wrapper_container{
-        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 2rem;
+        margin-top: 40px;
+        
+    }
+
+    .wrapper_container .count_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #e91e62;
+        height: 30vh;
+        width: 30%;
+        padding: 20px;
+        border-radius: 10px;
+        border-bottom: 6px solid #ffffff;
     }
     
     .header-container .title-image .image img{
@@ -2158,6 +2176,19 @@ color: #e91e62;
        
      }
 
+     .wrapper_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        
+        
+    }
+
+    .wrapper_container .count_container{
+        width: 100%;
+        
+    }
+
 
     
 }
@@ -2193,6 +2224,20 @@ color: #e91e62;
         text-align: center;
        
      }
+
+     .wrapper_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        
+        
+    }
+
+    .wrapper_container .count_container{
+        width: 100%;
+        
+    }
+
 
 }
 
