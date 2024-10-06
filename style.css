@@ -1317,6 +1317,364 @@ color: #e91e62;
    
  }
 
+ 
+ @media screen and  (max-width:1024px){
+    nav{
+        padding: 10px 2rem;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .header-container{
+        margin-top: 30px;
+          padding: 20px 0rem;
+          width: 100%;
+          height: auto;
+      
+      }
+
+      .header-container .title-image{
+        flex-direction: column;
+        margin-top: 70px;
+     }
+
+     .header-container .title-image .title{
+        position: static;
+        line-height: 1.3;
+        padding: 10px 2rem;
+        width: 100%;
+    }
+
+    .header-container .title-image .title h1{
+        font-size: 2.8rem;
+        line-height: 1.2;
+        width: 100%;
+    }
+
+    .header-container .title-image .title button{
+        font-size: 2rem;
+    }
+
+    .header-container .title-image .title p{
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+    .header-container .title-image .image img{
+        object-fit: cover;
+        margin-left: 9rem;
+        height: 22rem;
+    } 
+
+    .about-website{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem 2rem;
+        width: 100%;
+        gap: 2rem;
+    }
+
+
+    .course-number,
+    .instructorrs,
+    .certification,
+    .members,
+    .acheivment{
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding: 20px 0;
+        padding: 1rem 1rem;
+    }
+
+/* .who-we-are-continer section */
+.who-we-are-continer{
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem 2rem;
+ }
+
+ .who-we-are-continer p{
+    font-size: 1.3rem;
+ }
+
+ .who-we-are-continer h1{
+    display: none;
+ }
+
+ .who-we-are-continer img{
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-right: 5px solid #e91e63;
+    border-bottom: 8px solid white;
+}
+
+.student_enrolled{
+    width: 25%;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+    left: 120px;
+    bottom: 100px;
+    box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+    transition: .5s;
+}
+
+.student_enrolled:hover{
+    border: 4px outset rgb(9, 0, 133);
+    padding: 10px;
+    
+}
+
+.start_yourlearning_journey{
+    width: 100%;
+    height: auto;
+    padding:1rem 2rem;
+    gap: 3rem;
+    
+}
+
+.start_yourlearning_journey .txt{
+    width: 650px;
+}
+
+.start_yourlearning_journey p{
+    color: var(--text-color);
+    letter-spacing: .5px;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5;
+    
+
+}
+
+.start_yourlearning_journey h2{
+    font-size: 2.5rem;
+    
+}
+
+.start_yourlearning_journey img{
+    height: 25rem;
+    width: 40%;
+}
+
+.our-popular-course{
+    margin-top: 40px;
+    width: 100%;
+    padding: 1rem 2rem;
+    height: auto;
+  
+}
+
+
+
+.our-popular-course p{
+    letter-spacing: .5px;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    width: 700px;
+   
+}
+
+.our-popular-course h1{
+    font-size: 2.5rem;
+}
+
+.our-popular-course h1::before{
+    height: 90px;
+    border-bottom: 2px solid;
+    width: 90px;
+}
+
+.courses-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: black;
+    gap: 20px;
+}
+
+
+
+.courses-card .card1{
+   width: 100%;
+   height: auto;
+   box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
+}
+
+.courses-card .card1 img{
+    object-fit: contain;
+    
+}
+
+.get-started-btn a{
+    text-decoration: none;
+    color: #eef3ed;
+
+}
+
+/* .popular-instructors sections */
+
+
+.sugested-questions{
+    padding:2rem  2rem;
+
+}
+
+.sugested-questions h1{
+    font-size: 2.5rem;
+}
+
+.sugested-questions .question_answers{
+    width: 93%;
+}
+
+.popular-instructors{
+    padding: 1rem 2rem;
+}
+
+.popular-instructors h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.popular-instructors h1 span{
+    display: none;
+}
+
+.instructors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem ;
+   
+}
+
+.popular-instructors p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 800px;
+}
+
+.socials{
+    display: inline;
+
+}
+
+.slider::after{
+    display: none;
+}
+
+.instructors .instructor1{
+    width: 100%;
+}
+
+.instructors .instructor1 img{
+    width: 100%;
+    height:auto ;
+}
+
+.foooter-container{
+    margin-top: 80px;
+    padding: 10px 2rem;
+    width: 100%;
+    height: auto;
+    
+}
+
+.foooter-container .footer-text{
+ flex-wrap: wrap;
+  gap: 2%;
+}
+
+.flex1 p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    width: 260px;
+}
+
+ .copyright{
+    padding: var(--max-width-768px);
+    width: 100%;
+ }
+
+
+ hr{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+   
+ }
+
+
+
+.flex2 .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.flex3 .links{
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.logo-footer{
+    color: #eef3ed;
+    margin-bottom: 10px;
+}
+
+
+
+.mail,
+ .call
+  ,.location{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+  
+}
+
+ .footer-socials .fa-brands{
+    font-size: 1.4rem;
+    color: #eef3ed;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #fc5304;
+    padding: 5px;
+    border-radius: 8px;
+   
+ }
+
+ .flex5{
+    background-color: #e91e63;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 10px;
+    line-height: 2;
+    font-size: 20px;
+    color: #eef3ed;
+    text-align: center;
+    position: relative;
+    left: 60px;
+   
+ }
+
+
+
+
+
+
+ }
+
 
 
  @media screen and  (max-width:992px) {
