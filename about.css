@@ -643,6 +643,196 @@ color: #e91e62;
    
  }
 
+ @media screen and (max-width:992px){
+    nav{
+        padding: 10px 1.5rem;
+        width: 100%;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+    
+    .nav-list .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .header-container{
+        padding: 20px 0rem;
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .about_us_container{
+        background: linear-gradient(to right, #17025a, rgba(0 , 0, 0, 0.3)),url(./images/books.jpeg);
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        
+    }
+
+     /* are_becode_team */
+    
+     .are_becode_team{
+        padding: 1rem 1.5rem;
+        width: 100%;
+        height: auto;
+         
+      }
+
+      .are_becode_team .text_user1{
+        background-color: #fff;
+        padding: 1rem;
+        gap: 0;
+        top: 10px;
+        height: auto;
+        width: 90%;
+    }
+
+    .text_user1 .image_right img{
+        display: inline;
+        object-fit: cover;
+        
+    }
+
+    .why_chose_use{
+        flex-direction: column;
+        padding: rem;
+        gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .instructors{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    .popular-instructors{
+        width: 100%;
+        padding: 0rem 1rem;
+        height: auto;
+    
+    }
+
+    .popular-instructors p{
+        width: 80%;
+    }
+
+    .instructors .instructor1 img{
+        width: 100%;
+        height:auto ;
+    }
+
+    .ready_to_kick_start_your_career{
+        width: 100%;
+        height: 30vh;
+        padding: 1rem;
+        background-color: #e91e63;
+    
+        
+        
+    }
+
+    .foooter-container{
+        margin-top: 0px;
+        padding: 10px 1rem;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .foooter-container .footer-text{
+     flex-wrap: wrap;
+      gap: 1%;
+    }
+    
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 260px;
+    }
+    
+     .copyright{
+       
+        padding: var(--max-width-768px);
+        width: 100%;
+        background-color: #e91e62;
+        padding-top: 20px;
+     }
+    
+    
+     hr{
+        width: 100%;
+        height: 1px;
+        padding: 0px;
+     }
+    
+    
+    
+    .flex2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .flex3 .links{
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .mail,
+     .call
+      ,.location{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap: 10px;
+      
+    }
+    
+     .footer-socials .fa-brands{
+        font-size: 1.4rem;
+        color: #eef3ed;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: #fc5304;
+        padding: 5px;
+        border-radius: 8px;
+       
+     }
+    
+     .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 120px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+    
+
+ }
+
  @media screen and (max-width:768px){
     nav{
         padding: 10px 1rem;
@@ -673,15 +863,10 @@ color: #e91e62;
         display: none;
     }
 
-    .contact-infor{
-    display: none;
-    
-    }
-
     .about_us_container{
         background: linear-gradient(to right, #17025a, rgba(0 , 0, 0, 0.3)),url(./images/books.jpeg);
         width: 100%;
-        height: 40vh;
+        height: 50vh;
         background-position: center;
         
     }

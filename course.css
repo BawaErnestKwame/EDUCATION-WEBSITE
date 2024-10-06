@@ -506,6 +506,186 @@ color: #e91e62;
    
  }
 
+ @media screen and (max-width:992px){
+    nav{
+        padding: 10px 1.5rem;
+        width: 100%;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+
+    .fa-xmark{
+        color: black;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: none;
+    }
+
+    .fa-bars{
+        color: #fff;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .contact-infor{
+        display: none;
+    }
+
+    .our-coursepage{
+        height: 60vh;
+    }
+
+    .our-popular-course{
+        margin-top: 40px;
+        width: 100%;
+        padding: 1rem 1.5rem;
+        height: auto;
+      
+    }
+
+   
+    
+    .our-popular-course p{
+        letter-spacing: .5px;
+       
+    }
+    
+    .our-popular-course h1{
+        font-size: 1.5rem;
+    }
+    
+    .our-popular-course h1::before{
+        height: 60px;
+        border-bottom: 2px solid;
+        width: 60px;
+    }
+    
+    .courses-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: black;
+        gap: 0px;
+        padding: 1rem;
+    }
+
+    .courses-card .card1{
+        width: 90%;
+        height: auto;
+        box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
+     }
+
+     .courses-card .card1 img{
+        object-fit: contain;
+     }
+     
+     .get-started-btn a{
+         text-decoration: none;
+         color: #eef3ed;
+     
+     }
+
+
+     .foooter-container{
+        margin-top: 80px;
+        padding: 10px 1rem;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .foooter-container .footer-text{
+     flex-wrap: wrap;
+      gap: 1%;
+    }
+    
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 260px;
+    }
+    
+     .copyright{
+        justify-content: center;
+        align-items: center;
+        padding: var(--max-width-768px);
+        width: 100%;
+        padding-top: 12px;
+        background-color: #e91e62;
+    
+
+     }
+
+   
+    
+    
+     hr{
+        width: 100%;
+        margin-top: 20px;
+        height: 1px;
+        background-color: gray;
+       
+     }
+    
+    
+    
+    .flex2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .flex3 .links{
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .mail,
+     .call
+      ,.location{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap: 10px;
+      
+    }
+    
+     .footer-socials .fa-brands{
+        font-size: 1.4rem;
+        color: #eef3ed;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: #fc5304;
+        padding: 5px;
+        border-radius: 8px;
+       
+     }
+    
+     .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 120px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+
+ }
+
  @media screen and (max-width:768px){
     nav{
         padding: 10px 1rem;

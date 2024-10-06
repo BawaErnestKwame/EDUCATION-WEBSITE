@@ -38,6 +38,11 @@ nav{
     background-color: var(--navbar);
     padding: 10px var(--man-body-padding);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, .3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 100;
 }
 
 nav .logo h1{
@@ -483,6 +488,131 @@ color: #e91e62;
    
  }
 
+ @media screen and (max-width:992px){
+    nav{
+        padding: 10px 1.5rem;
+        width: 100%;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+
+    .contact-infor{
+        display: block;
+    }
+
+    .container{
+        width: 100%;
+        height:35vh;
+        padding: 1rem;
+       
+    }
+
+    .contact_us_getin_touch_right_left{
+        padding: 1rem;
+        flex-direction: row;
+        gap: 3%;
+        height: auto;
+    
+     }
+
+     .mapps_toshow{
+        padding: 1.5rem;
+        height: 70vh;
+     }
+     .foooter-container{
+        margin-top: 10px;
+        padding: 10px 1rem;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .foooter-container .footer-text{
+     flex-wrap: wrap;
+      gap: 1%;
+    }
+    
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 260px;
+    }
+    
+     .copyright{
+        padding: var(--max-width-768px);
+        width: 100%;
+     }
+    
+    
+     hr{
+        width: 100%;
+        height: 1px;
+        background-color: gray;
+       
+     }
+    
+    
+    
+    .flex2 .links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .flex3 .links{
+        margin-top: 15px;
+        gap: 10px;
+    }
+    
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+    .mail,
+     .call
+      ,.location{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap: 10px;
+      
+    }
+    
+     .footer-socials .fa-brands{
+        font-size: 1.4rem;
+        color: #eef3ed;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: 10px;
+        background-color: #fc5304;
+        padding: 5px;
+        border-radius: 8px;
+       
+     }
+    
+     .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 120px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+
+    
+
+ }
+
  @media screen and (max-width:768px) {
 
     nav{
@@ -508,7 +638,6 @@ color: #e91e62;
         height: auto;
     
     }
-
 
       .contact-infor{
         display: none;
