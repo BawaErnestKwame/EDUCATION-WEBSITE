@@ -1103,3 +1103,16 @@ color: #e91e62;
    
  }
  }
+
+ @media screen and (max-width:478px) {
+    .ready_to_kick_start_your_career .items::before{
+        content: "";
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        top: 110px;
+        right: 30px;
+        border: 3px solid whitesmoke;
+    }
+    
+ }

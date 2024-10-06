@@ -880,6 +880,18 @@ color: #e91e62;
  }
 
 
+ @media screen and (max-width:478px) {
+    .our-coursepage{
+        height: 40vh;
+    }
+
+    .our-coursepage h1{
+        font-size: 1.7rem;
+    }
+    
+ }
+
+
 
 
 

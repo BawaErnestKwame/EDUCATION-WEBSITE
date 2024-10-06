@@ -1940,11 +1940,16 @@ color: #e91e62;
 .popular-instructors{
     width: 100%;
     padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .popular-instructors h1{
     color: #fff;
     margin-bottom: 10px;
+    color: #e91e63;
 }
 
 .popular-instructors h1 span{
@@ -1959,9 +1964,10 @@ color: #e91e62;
 }
 
 .popular-instructors p{
-    font-size: 1rem 1rem;
+    font-size:1rem;
     line-height: 1.5;
-    width: 450px;
+    width: 75%;
+    
 }
 
 .socials{
@@ -2078,6 +2084,78 @@ color: #e91e62;
    
  }
 }
+
+
+@media screen and (max-width:478px){
+    .student_enrolled{
+        width: 40%;
+        height: 100px;
+        background-color: aliceblue;
+        padding: 20px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        position: absolute;
+        left: 180px;
+        bottom: 650px;
+        box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+        transition: .5s;
+      
+    }
+
+
+    .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 170px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+
+
+    
+}
+
+
+@media screen and (max-width:378px){
+    .student_enrolled{
+        width: 45%;
+        height: 100px;
+        background-color: aliceblue;
+        padding: 20px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        position: absolute;
+        left: 110px;
+        bottom: 750px;
+        box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
+        transition: .5s;
+      
+    }
+
+
+    .flex5{
+        background-color: #e91e63;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: 140px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+
+}
+
+
 
 
 #preloader{
