@@ -1677,7 +1677,7 @@ color: #e91e62;
     color: #eef3ed;
     text-align: center;
     position: relative;
-    left: 220px;
+    left: 200px;
    
  }
 }
@@ -2193,6 +2193,23 @@ color: #e91e62;
     
 }
 
+@media screen and (max-width:412px){
+    .flex5{
+        background-color: #e90652;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-left: -10px;
+        line-height: 2;
+        font-size: 20px;
+        color: #eef3ed;
+        text-align: center;
+       
+     }
+
+}
+
 
 @media screen and (max-width:378px){
     .student_enrolled{
@@ -2210,6 +2227,8 @@ color: #e91e62;
       
     }
 
+    
+
 
     .flex5{
         background-color: #e91e63;
@@ -2217,7 +2236,7 @@ color: #e91e62;
         height: 40px;
         border-radius: 20px;
         margin-top: 60px;
-        margin-left: 140px;
+        margin-left: 0px;
         line-height: 2;
         font-size: 20px;
         color: #eef3ed;
