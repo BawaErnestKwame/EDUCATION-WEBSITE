@@ -1730,6 +1730,19 @@ color: #e91e62;
         height: 20rem;
     } 
 
+    .wrapper_container .count_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #e91e62;
+        height: 40vh;
+        width: 25%;
+        padding: 20px;
+        border-radius: 10px;
+        border-bottom: 6px solid #ffffff;
+    }
+    
+
     .about-website{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
