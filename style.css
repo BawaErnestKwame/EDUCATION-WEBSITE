@@ -1735,7 +1735,7 @@ color: #e91e62;
         align-items: center;
         flex-direction: column;
         background-color: #e91e62;
-        height: 40vh;
+        height: 65vh;
         width: 25%;
         padding: 20px;
         border-radius: 10px;
@@ -1788,11 +1788,13 @@ color: #e91e62;
         bottom: 100px;
         box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
         transition: .5s;
+        display: none;
     }
     
     .student_enrolled:hover{
         border: 4px outset rgb(9, 0, 133);
         padding: 10px;
+
         
     }
 
@@ -2085,6 +2087,12 @@ color: #e91e62;
         display: none;
     }
 
+    .student_enrolled{
+       
+        
+        display: none;
+    }
+
     
     .header-container .title-image .title{
         position: static;
@@ -2163,27 +2171,9 @@ color: #e91e62;
     padding: 1rem 1rem;
 }
 
-.student_enrolled{
-    width: 35%;
-    height: 100px;
-    background-color: aliceblue;
-    padding: 10px 8px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    position: absolute;
-    left: 230px;
-    bottom: 650px;
-    box-shadow: 5px 5px 10px rgba(167, 5, 100, 0.596);
-    transition: .5s;
-  
-}
 
-.student_enrolled:hover{
-    border: 4px outset rgb(9, 0, 133);
-    padding: 10px;
-    display: none;
-    
-}
+
+
 
    /* .who-we-are-continer section */
 
